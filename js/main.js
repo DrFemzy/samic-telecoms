@@ -15,7 +15,7 @@ const responsive = {
 
 $(document).ready(function(){
     $nav = $('.nav');
-    $toggleCollapse = $('.toggle-collapse');
+    $toggleCollapse = $('.toggle-icons');
 
     // Click event on toggle Menu
     $toggleCollapse.click(function(){
@@ -39,4 +39,7 @@ $(document).ready(function(){
             scrollTop: 0
         }, 5000);
     })
+
+    // AOS instance
+    AOS.init()
 })
