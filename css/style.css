@@ -150,7 +150,7 @@ p{
 
 .nav .nav-items .nav-link:hover{
     background-color: var(--darkgreen);
-    border-bottom-left-radius: 10px;
+
 }
 
 .nav .nav-items .nav-link:hover a{ 
@@ -172,6 +172,15 @@ p{
     background-color: var(--darkgreen);
     
 }
+
+/* Styling for the Current page */
+.nav .nav-menu > div .nav-items .current, .nav .nav-menu > div .nav-items .current a{
+    color: var(--lightestgreen) !important;
+    background-color: var(--darkgreen);
+}
+
+
+/* end Styling for the Current page */
 /* ==================End Navbar================= */
 
 
@@ -561,6 +570,11 @@ footer.footer .move-up span:hover{
         justify-content: space-around;
     }
 
+    .nav .nav-items .nav-link:hover{
+        background-color: var(--darkgreen);
+        border-bottom-left-radius: 10px;
+    }
+
 }
 /* end Viewport Less than or Equal to 818px */
 
@@ -628,13 +642,25 @@ footer.footer .move-up span:hover{
 
 main .about-title{
 
-    background: url(../images/aboutbg.jpg) !important; 
+    background: url(../images/aboutbg.jpg) ; 
     height: 110vh; 
     background-size: cover;
 }
 
+main .about-title .site-background .btn{
+    border-radius: 5px;
+    transition: .5s;
+}
 
+main .about-title .site-background .btn:hover{
+    background: var(--lightestgreen);
+    color: var(--darkgreen);
+}
 
+main .container{
+    background: white;
+    margin-top: 1rem;
+}
 
 
 
