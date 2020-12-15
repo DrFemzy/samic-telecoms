@@ -681,7 +681,7 @@ main .container .site-content .container .contactform .form form .formInput{
     width: 90%;
     margin: uto;
     border-radius: 4px;
-    box-shadow: 0px 1px 3px var(--darkgreen);
+  
 }
 
 
@@ -692,7 +692,13 @@ main .container .site-content .container .contactform .form form .formLabel{
 }
 
 
-
+main .container .site-content .container .contactform .form form .btn-block{
+    background: var(--darkgreen);
+    color: white;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
 
 
 
